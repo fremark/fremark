@@ -1,0 +1,14 @@
+{
+  "name": "@fremark/monorepo",
+  "version": "0.0.1",
+  "description": "A markdown standard with fresh new features, using remark.",
+  "packageManager": "pnpm@9.5.0",
+  "scripts": {
+    "dev": "pnpm --filter=@fremark/e2e run dev"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "fremark",
+  "license": "MIT"
+}

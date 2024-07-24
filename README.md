@@ -4,7 +4,7 @@ The all-in-one markdown standard reloaded with fresh features, presented in Type
 
 # Acknowledgements
 
-Thanks remark, zmarkdown, markdown-it and milkdown inspired this project. This project has referred to their codes.
+Thanks [remark](https://github.com/remarkjs/remark), [zmarkdown](https://github.com/zestedesavoir/zmarkdown), [markdown-it](https://github.com/markdown-it/markdown-it) and [milkdown](https://github.com/milkdown/milkdown) inspired this project. This project has referred to their codes.
 
 # License
 MIT © Freshmark

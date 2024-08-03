@@ -21,6 +21,7 @@
     "remark-math": "^6.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.0",
+    "fremark-remark-abbr": "workspace:*",
     "unified": "^11.0.5"
   }
 }

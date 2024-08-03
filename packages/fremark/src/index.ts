@@ -5,6 +5,7 @@ import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import remarkGemoji from "remark-gemoji";
 import rehypeMathjax from 'rehype-mathjax';
+import remarkAbbr from 'fremark-remark-abbr'
 import { unified } from "unified";
 import rehypeShiki from "@shikijs/rehype";
 
@@ -13,6 +14,7 @@ const fremark = unified()
   .use(remarkMath)
   .use(remarkGemoji)
   .use(remarkGfm)
+  .use(remarkAbbr)
   .use(remarkRehype)
   .use(rehypeMathjax)
   .use(rehypeShiki, {

@@ -1,6 +1,10 @@
 import './style.css'
 
 import fremark from 'fremark'
+import { readSync } from 'to-vfile'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = await String(await fremark.process(`test^1
-    `))
+import exampleMd from './example.md?raw'
+
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = await String(await fremark.process(exampleMd))
+
+

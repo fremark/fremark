@@ -33,3 +33,78 @@ blockquote {
     border-left: .25em solid #d1d9e0;
 }
 
+.task-list-item::marker
+{
+    content: none;
+}
+.task-list-item p {
+    margin-left:-1.3rem;
+}
+
+note p {
+    border-left: .25em solid #0969da;
+    padding: .5rem 1em;
+    background-color: #0969da11;
+}
+
+note p::before {
+    content: "Note";
+    color: #0969da;
+    font-weight: lighter;
+    display: flex;
+}
+
+tip p {
+    border-left: .25em solid #1a7f37;
+    padding: .5rem 1em;
+    background-color: #1a7f3711;
+}
+
+tip p::before {
+    content: "Tip";
+    color: #1a7f37;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    display: flex;
+}
+
+info p {
+    border-left: .25em solid #8250df;
+    padding: .5rem 1em;
+    background-color: #8250df11;
+}
+
+info p::before {
+    content: "Important";
+    color: #8250df;
+    font-weight: lighter;
+    display: flex;
+}
+
+warning p {
+    border-left: .25em solid #9a6700;
+    padding: .5rem 1em;
+    background-color: #9a670011;
+}
+
+warning p::before {
+    content: "Warning";
+    color: #9a6700;
+    font-weight: lighter;
+    display: flex;
+}
+
+danger p {
+    border-left: .25em solid #d1242f;
+    padding: .5rem 1em;
+    background-color: #d1242f11;
+}
+
+danger p::before {
+    content: "Caution";
+    color: #d1242f;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    display: flex;
+}
+

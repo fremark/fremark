@@ -33,6 +33,11 @@ blockquote {
     border-left: .25em solid #d1d9e0;
 }
 
+iframe {
+    width: 80rem;
+    aspect-ratio: 16 / 9;
+}
+
 .task-list-item::marker
 {
     content: none;

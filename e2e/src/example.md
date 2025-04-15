@@ -39,3 +39,14 @@ $$ E = MC^2 $$
 
 > [!CAUTION]
 > Negative potential consequences of an action.
+
+:::main{#readme}
+
+Lorem:br
+ipsum.
+
+::hr{.red}
+
+A :i[lovely] language know as :abbr[HTML]{title="HyperText Markup Language"}.
+
+::bilibili[Bad Apple Feat Nomico.]{BV1x5411o7Kn}

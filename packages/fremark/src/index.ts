@@ -12,6 +12,7 @@ import remarkGemoji from "remark-gemoji";
 import rehypeMathjax from 'rehype-mathjax';
 import { unified } from "unified";
 import rehypeShiki from "@shikijs/rehype";
+import { BilibiliRemarkPlugin } from "./bili";
 
 const fremark = unified()
   .use(remarkParse)
@@ -23,6 +24,7 @@ const fremark = unified()
   .use(remarkGithubAdmonitionsToDirectives)
   .use(remarkDirective)
   .use(remarkDirectiveRehype)
+  .use(BilibiliRemarkPlugin)
   .use(remarkRehype)
   .use(rehypeMathjax)
   .use(rehypeShiki, {

@@ -29,6 +29,9 @@ importers:
       '@shikijs/rehype':
         specifier: ^1.10.3
         version: 1.10.3
+      fremark-bilibili:
+        specifier: workspace:*
+        version: link:../fremark-bilibili
       rehype-document:
         specifier: ^7.0.3
         version: 7.0.3
@@ -80,16 +83,6 @@ importers:
         version: 5.5.3
 
   packages/fremark-bilibili:
-    dependencies:
-      unist-util-visit:
-        specifier: ^5.0.0
-        version: 5.0.0
-    devDependencies:
-      typescript:
-        specifier: ^5.5.3
-        version: 5.5.3
-
-  packages/fremark-remark-abbr:
     dependencies:
       unist-util-visit:
         specifier: ^5.0.0

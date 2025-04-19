@@ -12,7 +12,8 @@ import remarkGemoji from "remark-gemoji";
 import rehypeMathjax from 'rehype-mathjax';
 import { unified } from "unified";
 import rehypeShiki from "@shikijs/rehype";
-import { BilibiliRemarkPlugin } from "./bili";
+import { BilibiliRemarkPlugin } from "fremark-bilibili";
+import { rehypeWrapInDiv } from "./wrap"
 
 const fremark = unified()
   .use(remarkParse)
@@ -33,6 +34,9 @@ const fremark = unified()
       light: "vitesse-light",
       dark: "vitesse-dark",
     },
+  })
+  .use(rehypeWrapInDiv, {
+    wrapperClass: 'fremark'
   })
   .use(rehypeStringify);
 
